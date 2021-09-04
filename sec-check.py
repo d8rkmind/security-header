@@ -59,7 +59,7 @@ Set-Cookie:
 if __name__ == "__main__":
     
     try:
-        print("\n")
+       
         indicator()
     except IndexError:
         print(''' 
