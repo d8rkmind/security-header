@@ -65,5 +65,5 @@ if __name__ == "__main__":
         print(''' 
         Missing domain, 
             Usage :
-                python3 <>.py  (http/https):// "domain"
+                python3 sec-check.py  (http/https):// "domain"
         ''')
