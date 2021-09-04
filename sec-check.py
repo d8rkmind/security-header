@@ -45,11 +45,11 @@ Set-Cookie:
     t = PrettyTable(['Headers', 'status'])
     for i in list1:
         k = G+i+W
-        t.add_row([k,'✔'])
+        t.add_row([k,G+'✔'+W])
 
     for i in list2:
         k = R+i+W
-        t.add_row([k,'✘'])
+        t.add_row([k,R+'✘'+W])
 
     print(t)
     #for i in list2:
